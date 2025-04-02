@@ -1,0 +1,10 @@
+{
+    "manifest": {
+        "bundles": {
+            "AdrienLbt\\HexagonalMakerBundle": ["dev"]
+        },
+        "copy-from-recipe": {
+            "bin/": "%CONFIG_DIR%/"
+        }
+    }
+}
