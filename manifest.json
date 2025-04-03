@@ -4,7 +4,10 @@
             "AdrienLbt\\HexagonalMakerBundle": ["dev"]
         },
         "copy-from-recipe": {
-            "bin/": "%CONFIG_DIR%/"
+            "bin/edit-autoload.sh": "%BIN_DIR%/edit-autoload.sh"
+        },
+        "composer-scripts": {
+            "make:hexagonal:autoload": "symfony-cmd"
         }
     }
 }
