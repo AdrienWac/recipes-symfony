@@ -7,7 +7,7 @@
     "branch-": "main",
     "is_contrib": true,
     "_links": {
-        "respository": "github.com/AdrienWac/recipes-symfony",
+        "repository": "github.com/AdrienWac/recipes-symfony",
         "origin_template": "{package}:{version}@github.com/AdrienWac/recipes-symfony:main",
         "recipe_template": "https://api.github.com/repos/AdrienWac/recipes-symfony/contents/{package_dotted}.{version}.json"
     }
