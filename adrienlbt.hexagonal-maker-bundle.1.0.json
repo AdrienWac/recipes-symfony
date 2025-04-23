@@ -12,9 +12,9 @@
                     "config/packages/hexagonal-maker-bundle.yaml": {
                         "contents": [
                             "hexagonal_maker:",
-                            "   application_path: 'src/Application/Foo'",
-                            "   domain_path: 'src/Domain/Bar'",
-                            "   infrastructure_path: 'src/Infrastructure/Bar'"
+                            "   application_path: 'src/Application'",
+                            "   domain_path: 'src/Domain'",
+                            "   infrastructure_path: 'src/Infrastructure'"
                         ]
                     }
                 },
