@@ -17,9 +17,9 @@
                             "   infrastructure_path: 'src/Infrastructure'"
                         ]
                     }
-                },
-                "ref" : "0857fc7dfd1c5379a980daca1a417f3cb7d2920e"
+                }
             }
-        }
+        },
+        "ref" : "0857fc7dfd1c5379a980daca1a417f3cb7d2920e"
     }
 }
