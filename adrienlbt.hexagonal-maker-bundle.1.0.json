@@ -8,6 +8,9 @@
                 "composer-scripts": {
                     "make:hexagonal:autoload": "symfony-cmd"
                 },
+                "post-install-output": [
+                    "🎉 Le bundle Hexagonal Maker a été installé."
+                ],
                 "files": {
                     "config/packages/hexagonal-maker-bundle.yaml": {
                         "contents": [
