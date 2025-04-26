@@ -4,7 +4,7 @@
             "1.0"
         ]
     },
-    "branch-": "main",
+    "branch": "main",
     "is_contrib": true,
     "_links": {
         "repository": "github.com/AdrienWac/recipes-symfony",
