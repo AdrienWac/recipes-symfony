@@ -10,6 +10,6 @@
         "repository": "github.com/AdrienWac/recipes-symfony",
         "origin_template": "{package}:{version}@github.com/AdrienWac/recipes-symfony:main",
         "recipe_template": "https://api.github.com/repos/AdrienWac/recipes-symfony/contents/{package_dotted}.{version}.json"
-    ,
-    "ref" : "0857fc7dfd1c5379a980daca1a417f3cb7d2920e"}
+    },
+    "ref" : "0857fc7dfd1c5379a980daca1a417f3cb7d2920e"
 }

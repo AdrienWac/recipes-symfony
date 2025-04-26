@@ -3,7 +3,7 @@
         "adrienlbt/hexagonal-maker-bundle": {
             "manifest": {
                 "bundles": {
-                    "AdrienLbt\\HexagonalMakerBundle": ["dev"]
+                    "AdrienLbt\\HexagonalMakerBundle": ["all"]
                 },
                 "composer-scripts": {
                     "make:hexagonal:autoload": "symfony-cmd"
