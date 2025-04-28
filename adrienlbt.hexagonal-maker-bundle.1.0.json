@@ -3,7 +3,7 @@
         "adrienlbt/hexagonal-maker-bundle": {
             "manifest": {
                 "bundles": {
-                    "AdrienLbt\\HexagonalMakerBundle\\HexagonalMakerBundle": ["all"]
+                    "AdrienLbt\\HexagonalMakerBundle\\HexagonalMakerBundle": ["dev"]
                 },
                 "composer-scripts": {
                     "make:hexagonal:autoload": "symfony-cmd"
@@ -11,15 +11,8 @@
                 "post-install-output": [
                     "🎉 Le bundle Hexagonal Maker a été installé."
                 ],
-                "files": {
-                    "config/packages/hexagonal-maker-bundle.yaml": {
-                        "contents": [
-                            "hexagonal_maker:",
-                            "   application_path: 'src/Application'",
-                            "   domain_path: 'src/Domain'",
-                            "   infrastructure_path: 'src/Infrastructure'"
-                        ]
-                    }
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
                 }
             },
             "ref" : "0857fc7dfd1c5379a980daca1a417f3cb7d2920e"
