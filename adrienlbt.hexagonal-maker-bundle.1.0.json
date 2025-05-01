@@ -15,7 +15,17 @@
                     "config/": "%CONFIG_DIR%/"
                 }
             },
-            "ref" : "368f0125bd2aedc7f3d6a1b7c378fb2e75de9dca"
+            "files": {
+                "config/packages/hexagonal_maker_bundle.yaml": {
+                    "contents": [
+                        "hexagonal_maker:",
+                        "  application_path: 'src/Application'",
+                        "  domain_path: 'src/Domain'",
+                        "  infrastructure_path: 'src/Infrastructure'"
+                    ]
+                }
+            },
+            "ref" : "58fe86e2119c5ca4d690afc2e95b3d8cadfebde0"
         }
     }
 }
