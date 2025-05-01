@@ -11,5 +11,5 @@
         "origin_template": "{package}:{version}@github.com/AdrienWac/recipes-symfony:main",
         "recipe_template": "https://api.github.com/repos/AdrienWac/recipes-symfony/contents/{package_dotted}.{version}.json"
     },
-    "ref" : "0857fc7dfd1c5379a980daca1a417f3cb7d2920e"
+    "ref" : "1076e0b8b02fffaf9471d788374ce298bb6fcb5d"
 }
