@@ -22,10 +22,11 @@
                         "  application_path: 'src/Application'",
                         "  domain_path: 'src/Domain'",
                         "  infrastructure_path: 'src/Infrastructure'"
-                    ]
+                    ],
+                    "executable": false
                 }
             },
-            "ref" : "58fe86e2119c5ca4d690afc2e95b3d8cadfebde0"
+            "ref" : "c5807a146a7dbada2be7cbf6cc4a39e29187c2ed"
         }
     }
 }
