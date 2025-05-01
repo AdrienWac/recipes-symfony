@@ -1,4 +1,0 @@
-hexagonal_maker:
-  application_path: 'src/Application'
-  domain_path: 'src/Domain'
-  infrastructure_path: 'src/Infrastructure'
