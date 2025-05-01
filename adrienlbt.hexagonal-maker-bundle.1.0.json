@@ -9,7 +9,7 @@
                     "make:hexagonal:autoload": "symfony-cmd"
                 },
                 "post-install-output": [
-                    "🎉 Le bundle Hexagonal Maker a été installé."
+                    "🎉 Le bundle Hexagonal Maker a été installé.OuiOui"
                 ],
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/"
